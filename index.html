@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Austin P. Dreyer's Website</title>
+				<meta name="description" content="The Website of Dr. Austin Dreyer">
+				
+				<!-- google fonts integration: http://www.google.com/fonts --> 
+				<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700|Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+				
+				<!-- normalize to clean up and standardize the broswer default styles: http://necolas.githup.io/normalize.css/ -->
+				<link rel="stylesheet" type="text/css" href="css/normalize.css">
+				
+				<!-- custom css -->
+				<link rel="stylesheet" type="text/css" href="css/master.css">
+				
+				<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
+				<script src="js/modernizr.js"></script>
+				
+				<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+				<meta name="viewport" content="width=device-width, intiial-scale=1">
+				
+				
+				<!-- calling jquery/jqueryUI for cool widgets etc. from google servers -->
+				<script typeof="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+				
+				
+				<!-- script for unslider -->
+				
+				<link rel="stylesheet" href="unslider-master/dist/css/unslider.css">
+				<link rel="stylesheet" href="unslider-master/dist/css/unslider-dots.css">
+
+				<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+				<script src="unslider-master/src/js/unslider.js"></script>
+
+				<script>
+					jQuery(document).ready(function($) {
+					
+						
+					$('.photo-slider').unslider({
+						arrows: {
+						arrows:false,
+						//autoplay: true,
+						//Unslider default behaviour
+						//prev: '<a class="unslider-arrow prev">Previous</a>',
+						//next: '<a class="unslider-arrow next">Next</a>'
+						}})
+					});
+				</script>
+
+
+	</head>
+	<body>
+	
+	
+	<div id="hero">
+		<p id="page-title">Austin P. Dreyer, PhD</p>
+			<div class="container">
+				<div class="photo-slider">
+					<ul class="banner">
+					
+						<li><img src="images/FLIC.jpg" alt="test" height="230" width="350"></li>
+						<li><img src="images/flies_incubator.jpg" alt="test" height="230" width="350"></li>
+						<li><img src="images/data.jpg" alt="computer screen" height="230" width="350"></li>
+					</ul>
+				</div><!-- end photo-slider -->
+			</div><!-- end container -->
+		
+	</div><!-- end hero -->
+
+	
+		<header class="main-header">
+			<div id="navtools">
+				<nav>
+					<ul>
+						<li class="odd"><a href="index.html">Home</a></li>
+						<li class="even"><a href="research.html">Research</a></li>
+						<li class="odd"><a href="teaching.html">Teaching</a></li>				
+						<li class="even"><a href="publications.html">Publications</a></li>
+						<li class="odd"><a href="curriculum-vitae.html">Curriculum Vitae</a></li>
+						<li class="even"><a href="links.html">Links</a></li>
+					</ul>
+				</nav>
+			</div><!-- end navtools -->
+		</header><!-- end main-header -->
+	
+
+	
+		<div class="main-body clearfix">
+		<h1 class ="body-header" id="body-title">Welcome</h1>
+		
+		<p class="body-text"><img class="selfie" src="images/austin.jpg" alt="picture of austin">Post-ironic street art synth, cardigan quinoa deep v wolf. Sustainable 3 wolf moon meditation quinoa. Sartorial try-hard retro cray. Brunch viral deep v, small batch cray master cleanse meditation heirloom helvetica shoreditch tofu fap bicycle rights. Gluten-free brooklyn swag, pour-over affogato twee put a bird on it hammock ennui etsy lomo single-origin coffee yuccie humblebrag. Put a bird on it XOXO mustache austin, squid umami slow-carb flexitarian you probably haven't heard of them next level skateboard gluten-free cornhole asymmetrical organic. Hashtag echo park flannel deep v paleo slow-carb. Read more about my <a href=""><strong>research interests</strong></a> and <a <a href="url"><strong>teaching experience</strong></a>.</p>
+		
+		
+		<div id="feature-image">
+			
+		</div><!-- end feature-image -->
+		
+	</div><!-- end main-body -->
+
+	<hr>
+	
+	<div id="news" class="clearfix">
+		
+		<h2>News and Updates</h2>
+		
+		<article class="items">
+			<header>
+				<h3>New Paper!</h3>
+				<time datetime="2016-05-16">May 16, 2016</time>
+			</header>
+			
+			<section class="summary">
+				<p>Chartreuse vegan banjo, wolf banh mi tousled master cleanse. Blog kombucha slow-carb, neutra salvia normcore hashtag shoreditch waistcoat cronut twee retro four loko lomo. Health goth ugh iPhone YOLO listicle, blue bottle food truck whatever man braid letterpress truffaut austin yuccie meh.</p>
+			</section>
+			
+			<header>
+				<h3>Summer at Loyola</h3>
+				<time datetime="2016-05-01">May 1, 2016</time>
+			</header>
+			
+			<section>
+				<p>Literally bicycle rights keffiyeh fixie, organic gentrify migas banh mi vegan austin cornhole fingerstache thundercats. Sustainable locavore selfies tattooed asymmetrical organic, meditation dreamcatcher bushwick pinterest migas iPhone pickled offal.</p>
+			</section>
+			
+		</article><!-- end items -->
+		
+		
+	</div><!-- end news -->
+
+	<hr>
+
+	<footer class="main-footer">
+		<div class="container-footer clearfix">
+		
+			<div id="copyright">
+				<p>&copy; <strong>Austin Dreyer 2017</strong></p>
+			</div><!-- end uncopyright -->
+			
+			
+		</div><!-- end container -->
+	</footer>
+
+	 
+		
+	</body>
+</html>
