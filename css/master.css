@@ -1,6 +1,6 @@
 /* ===============================
 	Author: Austin Dreyer
-	Date:   May 24, 2017
+	Date:   August 6, 2018
 	
 	Notes:
 	Attempt to make fancy website
@@ -23,7 +23,7 @@
 
 
 html, body {
-	background: url('../images/background.png') top left repeat;
+	background: #FFFFFF;
 	color: #4b2707;
 	font-size: 14px;
 	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
